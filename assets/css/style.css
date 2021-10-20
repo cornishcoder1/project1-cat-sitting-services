@@ -80,11 +80,16 @@ h1, h2 {
     background: url(../images/hero_image_cat.jpg) no-repeat;
 }
 
-#hero-text {
+#hero-text-left {
     font-size:x-large;
     font-weight: 900;
     padding-top: 50px;
     margin-left: 30px;
+}
+
+#hero-text-left h2 {
+    font-size: larger;
+    padding-bottom: 10px;
 }
 
 ul, li {
@@ -93,6 +98,6 @@ ul, li {
     font-size: large;
 }
 
-p {
-    font-weight:lighter;
+#hero-text-right {
+    float: right;
 }
