@@ -61,16 +61,17 @@ h1, h2 {
 /* hero image */
 
 #hero-outer {
-    height: 450px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
-    
+    background: rgb(151,102,170, .7);
+
     position: relative;
 }
 
 #hero-image {
     height: 450px;
-    width: 100%;
-    float: left;
-    background: url(../images/lloyd-henneman-mBRfYA0dYYE-unsplash.jpg) no-repeat;
+    width: 50%;
+    float: right;
+    background: url(../images/hero_image_cat.jpg) no-repeat
 }
