@@ -14,7 +14,7 @@ body {
 /* Headings and Logo*/
 
 header {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 h1, h2 {
@@ -65,7 +65,7 @@ h1, h2 {
 /* hero image */
 
 #hero-container {
-    height: 400px;
+    height: 425px;
     width: 100%;
     overflow: hidden;
     background: rgb(151,102,170, .5);
@@ -73,23 +73,28 @@ h1, h2 {
     position: relative;
 }
 
+.hero-container {
+    display:flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    }
+
 #hero-image {
-    height: 450px;
+    height: 500px;
     width: 50%;
-    float: right;
     background: url(../images/hero_image_cat.jpg) no-repeat;
 }
 
-#hero-text-left {
-    font-size:x-large;
-    font-weight: 900;
+#hero-head-text, #hero-text-left, #hero-text-right {
     padding-top: 50px;
-    margin-left: 30px;
 }
 
-#hero-text-left h2 {
-    font-size: larger;
-    padding-bottom: 10px;
+#hero-head-text {
+    padding-left: 30px;
+}
+
+#hero-head-text h1, h2 {
+    font-size:xx-large;
 }
 
 ul, li {
@@ -98,6 +103,3 @@ ul, li {
     font-size: large;
 }
 
-#hero-text-right {
-    float: right;
-}
