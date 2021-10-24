@@ -14,8 +14,8 @@ body {
 /* Headings and Logo*/
 
 header {
-    padding-bottom: 75px;
-    background: rgb(254,254,223, .5)
+    background-color: rgb(254,254,223, .5);
+    overflow: hidden;
 }
 
 h1, h2 {
@@ -115,13 +115,9 @@ li {
     background: rgb(254,254,223, .5)
 }
 
-#video-header {
+#video-header, #video-player {
     padding-top: 50px;
     padding-left: 30px;
     font-size: x-large;
-}
-
-#video-player {
-    padding-top: 50px;
-    padding-left: 30px;
+    text-align: center;
 }
