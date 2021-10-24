@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans&family=Roboto&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open sans', sans-serif;
     color: #4E4351;
 }
 
@@ -15,6 +15,7 @@ body {
 
 header {
     padding-bottom: 75px;
+    background: rgb(254,254,223, .5)
 }
 
 h1, h2 {
@@ -56,13 +57,8 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
-/*
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-*/
 
-/* hero image */
+/* hero image and text */
 
 #hero-container {
     height: 425px;
@@ -76,7 +72,6 @@ h1, h2 {
 .hero-container {
     display:flex;
     justify-content: space-between;
-    /*align-items: center;*/
     }
 
 #hero-image {
@@ -98,7 +93,7 @@ h1, h2 {
 }
 
 #hero-head-text h1, h2 {
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 ul, li {
@@ -107,7 +102,26 @@ ul, li {
     font-size: large;
 }
 
-li{
+li {
     margin: 5px 0;
   }
 
+  /* video section*/
+
+  #video-container {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(254,254,223, .5)
+}
+
+#video-header {
+    padding-top: 50px;
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+#video-player {
+    padding-top: 50px;
+    padding-left: 30px;
+}
