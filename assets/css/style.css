@@ -121,3 +121,40 @@ li {
     font-size: x-large;
     text-align: center;
 }
+
+/* testimonials section*/
+
+#testimonials-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+
+.testimonials-container {
+    display:flex;
+    justify-content: space-between;
+    }
+
+#testimonials-image {
+    height: 1000px;
+    width: 50%;
+    background: url(../images/testimonials_image_gingercat.jpg) no-repeat;
+}
+
+#testimonials-header {
+    padding: 15px 15px 20px 0;
+    width: 50%;
+    font-size: x-large;
+    text-align: center;
+}
+
+#testimonials-header > p {
+    font-weight: lighter;
+    font-size:large;
+}
+
+
