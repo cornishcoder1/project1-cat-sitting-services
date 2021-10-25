@@ -81,15 +81,7 @@ h1, h2 {
 }
 
 #hero-head-text, #hero-text-left, #hero-text-right {
-    padding-top: 50px;
-}
-
-#hero-text-left, #hero-text-right {
-    padding-left: 30px;
-}
-
-#hero-head-text {
-    padding-left: 30px;
+    padding: 50px 0 0 30px;
 }
 
 #hero-head-text h1, h2 {
@@ -157,4 +149,25 @@ li {
     font-size:large;
 }
 
+/* Why choose us? section*/
+
+#why-container {
+    height: 425px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+/*.why-container {
+    display:flex;
+    justify-content: space-between;
+    }*/
+
+#why-head-text {
+    font-size: x-large;
+    text-align: center;
+    padding-top: 15px;
+}
 
