@@ -171,3 +171,12 @@ li {
     padding-top: 15px;
 }
 
+.icons {
+    display: inline-block;
+}
+    
+/*#photos > img {
+    width: 100%;
+}*/
+
+
