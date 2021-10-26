@@ -160,23 +160,39 @@ li {
     position: relative;
 }
 
-/*.why-container {
-    display:flex;
-    justify-content: space-between;
-    }*/
-
 #why-head-text {
     font-size: x-large;
     text-align: center;
     padding-top: 15px;
 }
 
+#icons {
+    height: 150px;
+}
+
+#icons-text {
+    height: 150px;
+}
+
 .icons {
     display: inline-block;
+    margin: 30px;
+    padding: 30px 100px 0 60px;
+    text-align: center;
 }
-    
-/*#photos > img {
-    width: 100%;
-}*/
 
+.icons-text {
+    display: inline-block;
+    margin: 30px;
+    padding: 20px 100px 0 45px;
+    text-align: center;
+}
+
+/* About Us section */
+#about-us {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(254,254,223, .5)
+}
 
