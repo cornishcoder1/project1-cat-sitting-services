@@ -11,6 +11,12 @@ body {
     border: none;
 }
 
+.hero-container, .video-container, .testimonials-container, .placeholder-container , .about-us-container, .why-container {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px 2px #B0A8B9;
+}
+
 /* Headings and Logo*/
 
 header {
@@ -150,8 +156,6 @@ li {
     padding: 0 15px 0 15px;
 }
 
-
-
 /* Why choose us? section*/
 
 #why-container {
@@ -201,7 +205,7 @@ li {
 }
 
 #about-us-text {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
@@ -236,7 +240,7 @@ li {
 
 #placeholder-text {
     width: 50%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
