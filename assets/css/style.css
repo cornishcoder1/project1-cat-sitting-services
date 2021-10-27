@@ -109,6 +109,7 @@ li {
   #video-container {
     height: 700px;
     width: 100%;
+    padding-bottom: 25px;
     overflow: hidden;
     background: rgb(254,254,223, .5)
 }
