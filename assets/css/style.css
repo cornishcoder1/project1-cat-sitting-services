@@ -147,7 +147,10 @@ li {
 #testimonials-header > p {
     font-weight: lighter;
     font-size:large;
+    padding: 0 15px 0 15px;
 }
+
+
 
 /* Why choose us? section*/
 
@@ -189,10 +192,57 @@ li {
 }
 
 /* About Us section */
-#about-us {
-    height: 700px;
+
+#about-us-container {
+    height: 350px;
     width: 100%;
     overflow: hidden;
-    background: rgb(254,254,223, .5)
+    background: rgb(254,254,223, .5);
+}
+
+#about-us-text {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+#about-us-container h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+/*Placeholder*/
+
+#placeholder-container {
+    height: 425px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+.placeholder-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+#placeholder-image {
+    height: 500px;
+    width: 50%;
+    background: url(../images/about\ us\ _image_3\ cats\ on\ wood\ floor.jpg) no-repeat;
+}
+
+#placeholder-text {
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#placeholder-container h1 {
+    font-size: xx-large;
+    text-align: center;
 }
 
