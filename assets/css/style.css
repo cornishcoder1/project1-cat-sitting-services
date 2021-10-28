@@ -11,7 +11,7 @@ body {
     border: none;
 }
 
-.hero-container, .video-container, .testimonials-container, .placeholder-container , .about-us-container, .why-container {
+.hero-section, .video-section, .testimonials-section, .placeholder-section, .about-us-section, .why-section, .form-section {
     border: 1px solid transparent;
     border-radius: 4px;
     box-shadow: 0px 1px 4px 2px #B0A8B9;
@@ -66,7 +66,7 @@ h1, h2 {
 
 /* hero image and text */
 
-#hero-container {
+#hero-section {
     height: 425px;
     width: 100%;
     overflow: hidden;
@@ -75,7 +75,7 @@ h1, h2 {
     position: relative;
 }
 
-.hero-container {
+.hero-section {
     display:flex;
     justify-content: space-between;
     }
@@ -106,7 +106,7 @@ li {
 
   /* video section*/
 
-  #video-container {
+  #video-section {
     height: 700px;
     width: 100%;
     padding-bottom: 25px;
@@ -121,45 +121,9 @@ li {
     text-align: center;
 }
 
-/* testimonials section*/
-
-#testimonials-container {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    background: rgb(151,102,170, .5);
-
-    position: relative;
-}
-
-
-.testimonials-container {
-    display:flex;
-    justify-content: space-between;
-    }
-
-#testimonials-image {
-    height: 1000px;
-    width: 50%;
-    background: url(../images/testimonials_image_gingercat.jpg) no-repeat;
-}
-
-#testimonials-header {
-    padding: 15px 15px 20px 0;
-    width: 50%;
-    font-size: x-large;
-    text-align: center;
-}
-
-#testimonials-header > p {
-    font-weight: lighter;
-    font-size:large;
-    padding: 0 15px 0 15px;
-}
-
 /* Why choose us? section*/
 
-#why-container {
+#why-section {
     height: 350px;
     width: 100%;
     overflow: hidden;
@@ -196,30 +160,9 @@ li {
     text-align: center;
 }
 
-/* About Us section */
+/*About Us section*/
 
-#about-us-container {
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
-    background: rgb(254,254,223, .5);
-}
-
-#about-us-text {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-}
-
-#about-us-container h1 {
-    font-size: xx-large;
-    text-align: center;
-}
-
-/*Placeholder*/
-
-#placeholder-container {
+#about-us-section {
     height: 425px;
     width: 100%;
     overflow: hidden;
@@ -228,26 +171,146 @@ li {
     position: relative;
 }
 
-.placeholder-container {
+.about-us-section {
     display:flex;
     justify-content: space-between;
 }
 
-#placeholder-image {
+#about-us-image {
     height: 500px;
     width: 50%;
     background: url(../images/about\ us\ _image_3\ cats\ on\ wood\ floor.jpg) no-repeat;
 }
 
-#placeholder-text {
+#about-us-text {
     width: 50%;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 15px 0 15px;
+    text-align: center;
 }
 
-#placeholder-container h1 {
+#about-us-section h1 {
+    padding-top: 15px;
     font-size: xx-large;
     text-align: center;
+}
+
+/* Benefits section */
+
+#benefits-section {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(254,254,223, .5);
+}
+
+#benefits-text {
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+#benefits-section h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* testimonials section*/
+
+#testimonials-section {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+.testimonials-section {
+    display:flex;
+    justify-content: space-between;
+    }
+
+#testimonials-image {
+    height: 1000px;
+    width: 50%;
+    background: url(../images/testimonials_image_gingercat.jpg) no-repeat;
+}
+
+#testimonials-header {
+    padding-top: 15px;
+    width: 60%;
+}
+
+#testimonials-header h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#testimonials-header > p {
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+
+
+
+
+
+
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: rgb(151,102,170, .5);
+    height: 800px;
+}
+
+.signup-form {
+    margin-top:150px;
+    color: #4E4351;
+    background-color: #B0A8B9;
+    max-width: 400px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #4E4351;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent; 
+    color: #4E4351;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    
+}
+
+.text-input:hover{
+    border-color: #f16c6b;
+} 
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
