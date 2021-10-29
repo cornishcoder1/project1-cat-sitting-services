@@ -340,3 +340,11 @@ li {
     width: 100%;
     margin: 5px 0 20px 0;
 }
+
+#contact-image {
+    background: url(../images/contact_image_b&wcat.jpg) center center no-repeat;
+    height: 500px;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+}
