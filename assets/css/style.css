@@ -265,13 +265,13 @@ li {
 .form-section {
     clear: left;
     background: rgb(151,102,170, .5);
-    height: 800px;
+    height: 1000px;
 }
 
 .signup-form {
-    margin-top:150px;
+    margin-top:100px;
     color: #4E4351;
-    background-color: #B0A8B9;
+    background-color: rgb(254,254,223, .7);
     max-width: 400px;
     position: absolute;
     right: 10%;
@@ -283,34 +283,60 @@ li {
     margin-bottom: 20px;
 }
 
-.text-input {
+.text-input  {
     background: transparent; 
     color: #4E4351;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid #4E4351;
     border-radius: 2px;
     
 }
 
 .text-input:hover{
-    border-color: #f16c6b;
+    border-color: #008E9B;
 } 
 
-.join-button {
+.submit-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #008E9B;
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+.submit-button:hover {
+    background-color: #008E9B;
+    color: #4E4351;
 }
 
+.dates-header {
+    margin: 5px 0 20px 0;
+}
+
+.dates {
+    background-color: transparent;
+    font-family: inherit;
+    border: 0.5px solid #4E4351;
+    border-radius: 1px;
+    width: 50%;
+    margin: 5px 0 20px 0;
+}
+
+.dates:hover {
+    border-color: #008E9B;
+    color: #4E4351;
+}
+
+.message {
+    border: 1px solid #4E4351;
+    border-radius: 2px;
+    text-align: left;
+    text-indent: 10px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+}

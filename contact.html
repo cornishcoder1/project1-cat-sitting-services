@@ -35,8 +35,7 @@
     <section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>
-            <i class="fas fa-heartbeat"></i>
-            Let's get you signed up!</h2>
+            Get in touch! <i class="fas fa-cat"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" class="text-input" required>
             
@@ -46,14 +45,33 @@
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address" class="text-input" required>
             
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
-            
-            <input class="join-button" type="submit" value="Let's Run!">
+            <label for="dates" class="dates-header">Dates cat sitting required</label>
+            <br>
+            <label for="from">From:</label>
+            <br>
+            <input type="date" id="from" name="from" class="dates" required>
+            <br>   
+            <label for="to">To:</label>
+            <br>
+            <input type="date" id="to" name="to" class="dates" required> 
+            <br>   
+            <label for="number">Number of cats that require sitting</label>
+            <br>
+            <input type="radio" id="1" name="1" value="1">
+            <label for="1">1</label>
+            <br>
+            <input type="radio" id="2" name="2" value="2">
+            <label for="2">2</label>
+            <br>
+            <input type="radio" id="3+" name="3+" value="3+">
+            <label for="3+">3+</label>
+            <br>
+            <br>
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea rows="4" cols="50" name="message" form="get-in-touch" class="message">
+            </textarea>
+            <input class="submit-button" type="submit" value="Submit">
         </form>
     </section>
     </body>
