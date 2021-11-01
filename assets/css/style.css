@@ -163,7 +163,7 @@ li {
 /* About Us section */
 
 #about-us-section {
-    clear: left;
+    /*clear: left*/
     background: rgb(151,102,170, .5);
     height: 2000px;
 }
@@ -208,7 +208,7 @@ li {
     margin: 20px auto;
     padding: 30px;
     background: url(../images/testimonials_image_gingercat.jpg) center no-repeat;
-    width: 600px;
+    width: 625px;
     height: 350px;
     text-align: center;
 }
