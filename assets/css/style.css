@@ -213,6 +213,46 @@ li {
     text-align: center;
 }
 
+/* Prices Page */
+
+.prices-section {
+    clear: left;
+    background: rgb(151,102,170, .5);
+    height: 1000px;
+}
+
+
+#prices-table h1 {
+        padding-top: 15px;
+        font-size: xx-large;
+        text-align: center;
+}
+
+
+table {
+	width: 70%;
+}
+
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr, th, td {
+	text-align: left;
+}
+
+th, td {
+	border: 1px solid rgb(151,102,170);
+	padding: 5px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  }
+
 
 
 
