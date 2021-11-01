@@ -235,24 +235,24 @@ table {
 
 tr {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 tr, th, td {
 	text-align: left;
+    color: #4E4351;
 }
 
 th, td {
-	border: 1px solid rgb(151,102,170);
+	border: 1px solid rgb(151,102,170, .5);
 	padding: 5px;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15px;
-  }
-
+    padding-top: 5px;
+}
 
 
 
