@@ -180,8 +180,8 @@ li {
 }*/
 
 .text-box {
-        width: 50%;
-        height: 350px;
+        width: 60%;
+        height: 325px;
         margin: 20px auto;
         padding: 0 15px 0 15px;
         background:rgb(254,254,223);
@@ -212,7 +212,7 @@ li {
 .prices-section {
     clear: left;
     background: rgb(151,102,170, .5);
-    height: 1000px;
+    height: 1100px;
 }
 
 .prices-box {
@@ -259,6 +259,15 @@ th, td {
     margin-left: auto;
     margin-right: auto;
     padding-top: 5px;
+}
+
+#prices-image {
+    margin: 20px auto;
+    margin-top: 30px;
+    background: url(../images/prices_page_image.jpg) center no-repeat;
+    width: 592px;
+    height: 395px;
+    text-align: center;
 }
 
 
