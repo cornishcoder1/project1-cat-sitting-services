@@ -11,7 +11,7 @@ body {
     border: none;
 }
 
-.hero-section, .video-section, .testimonials-section, .placeholder-section, .about-us-section, .why-section, .form-section, .signup-form {
+.border-styling {
     border: 1px solid transparent;
     border-radius: 4px;
     box-shadow: 0px 1px 4px 2px #B0A8B9;
@@ -160,32 +160,12 @@ li {
     text-align: center;
 }
 
-/*About Us section*/
+/* About Us section */
 
 #about-us-section {
-    height: 425px;
-    width: 100%;
-    overflow: hidden;
+    clear: left;
     background: rgb(151,102,170, .5);
-
-    position: relative;
-}
-
-.about-us-section {
-    display:flex;
-    justify-content: space-between;
-}
-
-#about-us-image {
-    height: 500px;
-    width: 50%;
-    background: url(../images/about\ us\ _image_3\ cats\ on\ wood\ floor.jpg) no-repeat;
-}
-
-#about-us-text {
-    width: 50%;
-    padding: 0 15px 0 15px;
-    text-align: center;
+    height: 2000px;
 }
 
 #about-us-section h1 {
@@ -194,64 +174,48 @@ li {
     text-align: center;
 }
 
-/* Benefits section */
-
-#benefits-section {
-    height: 350px;
-    width: 100%;
-    overflow: hidden;
-    background: rgb(254,254,223, .5);
-}
-
-#benefits-text {
-    text-align: center;
+#about-us-text {
+    width: 50%;
     padding: 0 15px 0 15px;
-}
-
-#benefits-section h1 {
-    font-size: xx-large;
     text-align: center;
-    padding-top: 15px;
 }
 
-
-/* testimonials section*/
-
-#testimonials-section {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
-    background: rgb(151,102,170, .5);
-
-    position: relative;
-}
-
-.testimonials-section {
+/*.about-us-section {
     display:flex;
     justify-content: space-between;
-    }
+}*/
+
+.text-box {
+        width: 66%;
+        height: 350px;
+        margin: 20px auto;
+        padding: 30px;
+        background:rgb(254,254,223);
+        font-size: smaller;
+        text-align: center;
+}
+
+#about-image {
+    margin: 20px auto;
+    padding: 30px;
+    background: url(../images/about\ us\ _image_3\ cats\ on\ wood\ floor.jpg) center no-repeat;
+    width: 600px;
+    height: 350px;
+    text-align: center;
+}
 
 #testimonials-image {
-    height: 1000px;
-    width: 50%;
-    background: url(../images/testimonials_image_gingercat.jpg) no-repeat;
-}
-
-#testimonials-header {
-    padding-top: 15px;
-    width: 60%;
-}
-
-#testimonials-header h1 {
-    font-size: xx-large;
+    margin: 20px auto;
+    padding: 30px;
+    background: url(../images/testimonials_image_gingercat.jpg) center no-repeat;
+    width: 600px;
+    height: 350px;
     text-align: center;
 }
 
-#testimonials-header > p {
-    font-weight: lighter;
-    text-align: center;
-    padding: 0 15px 0 15px;
-}
+
+
+
 
 
 

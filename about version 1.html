@@ -32,8 +32,10 @@
             </ul>
         </nav>
     </header>
-    <section id="about-us-section" class="about-us-section border-styling">
-        <div id="about-us-text" class="text-box border-styling">
+    <section id="about-us-section" class="about-us-section">
+        <div id="about-us-image" class="about-us-image">
+        </div>
+        <div id="about-us-text">
             <h1>About Us</h1>
             <br>
             <p>There are many benefits to using a cat sitting service whilst you are away, as opposed to a traditional cattery. We take care of your pet at home, in their familiar environment. This prevents exposure to additional stress or potential health hazards/disease which may come with putting them into a cattery. We can also visit on a schedule that suits you and your cat, ensuring that your pet’s routine is not disturbed. We will feed your cat according to your instructions, and can also administer any medication if and when required. 
@@ -41,11 +43,9 @@
                 All our staff are fully criminal record checked and insured. In addition to feeding and medicating we will also empty and clean litter trays, and spend time playing with and cuddling your cat if they so desire! For nervous cats we will give them space and try to cause as little disruption as possible during visits. For peace of mind we also have access to 24hr emergency veterinary services, should your cat fall ill whilst in our care.</p>  
             <br>    
             <p>To arrange an introductory meeting, where we will meet you and your pet in your home to discuss your requirements, please get in touch via the <a href="../project1-cat-sitting-services/contact.html" target="_blank">Contact</a> page.</p>
-        </div>   
-        <div id="about-image" class="about-image border-styling">
-          
-        </div>  
-        <div id="about-us-text" class="text-box border-styling">
+    </section>
+    <section id="benefits-section" class="benefits-section">
+        <div id="benefits-text">
             <h1>Benefits</h1>
             <br>
             <p>There are many benefits to using a cat sitting service whilst you are away, as opposed to a traditional cattery. We take care of your pet at home, in their familiar environment. This prevents exposure to additional stress or potential health hazards/disease which may come with putting them into a cattery. We can also visit on a schedule that suits you and your cat, ensuring that your pet’s routine is not disturbed. We will feed your cat according to your instructions, and can also administer any medication if and when required. 
@@ -53,10 +53,12 @@
                 All our staff are fully criminal record checked and insured. In addition to feeding and medicating we will also empty and clean litter trays, and spend time playing with and cuddling your cat if they so desire! For nervous cats we will give them space and try to cause as little disruption as possible during visits. For peace of mind we also have access to 24hr emergency veterinary services, should your cat fall ill whilst in our care.</p>  
             <br>    
             <p>To arrange an introductory meeting, where we will meet you and your pet in your home to discuss your requirements, please get in touch via the <a href="../project1-cat-sitting-services/contact.html" target="_blank">Contact</a> page.</p>
-        </div> 
-        <div id="testimonials-image" class="border-styling">
         </div>
-        <div id="about-us-text" class="text-box border-styling">
+    </section>
+    <section id="testimonials-section" class="testimonials-section">
+        <div id="testimonials-image">
+        </div>
+        <div id="testimonials-header">
             <h1>Testimonials</h1>
             <br>
             <p>"Could not fault Holly & Ruby, my 9-month old kitten was safe in their hands for the three days I was away. They even picked up the post for me and watered the plants". 
@@ -75,3 +77,99 @@
    
     <!--Font Awesome script-->
 <script src="https://kit.fontawesome.com/7ade5167ce.js" crossorigin="anonymous"></script>
+
+
+
+
+CSS - /*About Us section v0.1 */
+
+#about-us-section {
+    height: 425px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+.about-us-section {
+    display:flex;
+    justify-content: space-between;
+}
+
+#about-us-image {
+    height: 500px;
+    width: 50%;
+    background: url(../images/about\ us\ _image_3\ cats\ on\ wood\ floor.jpg) no-repeat;
+}
+
+#about-us-text {
+    width: 50%;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+#about-us-section h1 {
+    padding-top: 15px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* Benefits section version v0.1 */
+
+#benefits-section {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(254,254,223, .5);
+}
+
+#benefits-text {
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+#benefits-section h1 {
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* testimonials section v0.1 */
+
+#testimonials-section {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(151,102,170, .5);
+
+    position: relative;
+}
+
+.testimonials-section {
+    display:flex;
+    justify-content: space-between;
+    }
+
+#testimonials-image {
+    height: 1000px;
+    width: 50%;
+    background: url(../images/testimonials_image_gingercat.jpg) no-repeat;
+}
+
+#testimonials-header {
+    padding-top: 15px;
+    width: 60%;
+}
+
+#testimonials-header h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+#testimonials-header > p {
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
