@@ -379,30 +379,74 @@ th, td {
 /* Confirmation Page */
 
 #confirmation-section {
+    /*clear: left;*/
     background: rgb(151,102,170, .5);
-    height: 700px;
+    height: 1100px;
 }
 
-#confirmation-section h1 {
-    padding-top: 15px;
+.confirmation-section {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    background:rgb(254,254,223);
+    font-size: smaller;
+    text-align: center;
+}
+
+#confirmation-text {
+
+}
+
+#confirmation-text h1 {
     font-size: xx-large;
     text-align: center;
 }
 
 .confirmation-box {
-        width: 60%;
-        height: 100px;
-        margin: 20px auto;
-        padding: 0 15px 0 15px;
-        background:rgb(254,254,223);
-        font-size: smaller;
-        text-align: center;
-}        
+    width: 66%;
+    height: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background:rgb(254,254,223);
+    font-size: smaller;
+    text-align: center;
+}
 
 #confirmation-image {
-    margin: 20px auto;
-    background: url(../images/confirmation_page_image.jpg) center no-repeat;
-    width: 252px;
-    height: 202px;
+        margin: 20px auto;
+        margin-top: 30px;
+        background: url(../images/confirmation_page_image.jpg) center no-repeat;
+        width: 592px;
+        height: 395px;
+        text-align: center;
+    }
+
+.confirmation-image {
+
+}
+
+
+
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background: rgb(254,254,223, .5);
+}
+
+.social-networks {
     text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #4E4351;
 }
