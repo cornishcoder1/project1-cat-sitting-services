@@ -433,7 +433,7 @@ th, td {
 
 footer {
     height: 150px;
-    background: rgb(254,254,223, .5);
+    background: rgb(254,254,223);
 }
 
 .social-networks {
@@ -442,11 +442,12 @@ footer {
 
 .social-networks li {
     display: inline;
+   justify-content: space-between;
 }
 
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding-top: 30px;
     color: #4E4351;
 }
