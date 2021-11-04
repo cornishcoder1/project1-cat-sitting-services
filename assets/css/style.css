@@ -38,7 +38,7 @@ h1, h2 {
     margin-left: 30px;
 }
 
-/* navigation links */
+/* Navigation Links */
 
 #menu {
     font-size: 110%;
@@ -62,24 +62,23 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #4E4351;
 }
 
-/* hero image and text */
+/* Hero Image and Text */
 
 #hero-section {
     height: 425px;
     width: 100%;
     overflow: hidden;
     background: rgb(151,102,170, .5);
-
     position: relative;
 }
 
 .hero-section {
     display:flex;
     justify-content: space-between;
-    }
+}
 
 #hero-image {
     height: 500px;
@@ -103,11 +102,11 @@ ul, li {
 
 li {
     margin: 5px 0;
-  }
+}
 
-  /* video section*/
+    /* Video Section */
 
-  .video-section {
+.video-section {
     height: 700px;
     width: 100%;
     padding-bottom: 25px;
@@ -122,14 +121,13 @@ li {
     text-align: center;
 }
 
-/* Why choose us? section*/
+/* Why Choose Us? section*/
 
 #why-section {
     height: 350px;
     width: 100%;
     overflow: hidden;
     background: rgb(151,102,170, .5);
-
     position: relative;
 }
 
@@ -164,7 +162,6 @@ li {
 /* About Us section */
 
 #about-us-section {
-    /*clear: left*/
     background: rgb(151,102,170, .5);
     height: 2000px;
 }
@@ -174,11 +171,6 @@ li {
     font-size: xx-large;
     text-align: center;
 }
-
-/*.about-us-section {
-    display:flex;
-    justify-content: space-between;
-}*/
 
 .text-box {
         width: 60%;
@@ -236,7 +228,6 @@ li {
     padding-top: 15px;
 }
 
-
 table {
 	width: 70%;
 }
@@ -271,16 +262,6 @@ th, td {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Form */
 
 .form-section {
@@ -311,8 +292,7 @@ th, td {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #4E4351;
-    border-radius: 2px;
-    
+    border-radius: 2px; 
 }
 
 .text-input:hover{
@@ -380,7 +360,6 @@ th, td {
 /* Confirmation Page */
 
 #confirmation-section {
-    /*clear: left;*/
     background: rgb(151,102,170, .5);
     height: 550px;
 }
@@ -410,13 +389,13 @@ th, td {
 }
 
 #confirmation-image {
-        margin: 20px auto;
-        margin-top: 30px;
-        background: url(../images/confirmation_page_image.jpg) center no-repeat;
-        width: 252px;
-        height: 202px;
-        text-align: center;
-    }
+    margin: 20px auto;
+    margin-top: 30px;
+    background: url(../images/confirmation_page_image.jpg) center no-repeat;
+    width: 252px;
+    height: 202px;
+    text-align: center;
+}
 
 /* Footer */
 
