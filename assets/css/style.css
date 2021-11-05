@@ -420,3 +420,14 @@ footer {
     padding-top: 30px;
     color: #4E4351;
 }
+
+/* Media Queries */
+
+/* For larger to medium screen sizes from 1200px and down */
+@media screen and (max-width: 1200px) {
+    header, nav {
+        display: grid;
+        justify-content: center;
+        height: 160px;
+    }
+}
