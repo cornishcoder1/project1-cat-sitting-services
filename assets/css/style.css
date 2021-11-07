@@ -259,7 +259,7 @@ th, td {
 
 .form-section {
     background: rgb(151,102,170, .5);
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .container-form {
