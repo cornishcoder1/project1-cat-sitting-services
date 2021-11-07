@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Open sans', sans-serif;
-    color: #4E4351;   
+    color: #4E4351;  
 }
 
 * {
@@ -357,9 +357,9 @@ padding: 30px 0 30px 0;
 
 /* Confirmation Page */
 
-#confirmation-section {
+.confirmation-section {
     background: rgb(151,102,170, .5);
-    height: 550px;
+    min-height: 100vh;
 }
 
 .container-confirmation {
