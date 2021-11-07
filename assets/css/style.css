@@ -191,7 +191,6 @@ padding: 30px 0 30px 0;
 /* Prices Page */
 
 .prices-section {
-    /*clear: left;*/
     background: rgb(151,102,170, .5);
     height: 1100px;
 }
@@ -259,24 +258,39 @@ th, td {
 /*Form */
 
 .form-section {
-    clear: left;
     background: rgb(151,102,170, .5);
     height: 1000px;
 }
 
+.container-form {
+    margin: auto;
+    width: min(90%, 70.5rem);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-form > * + * {
+padding: 30px 0 30px 0;
+}
+
+.container-form img {
+    margin: auto;
+    margin-top: 30px;
+}
+
 .signup-form {
-    margin-top:100px;
     color: #4E4351;
     background-color: rgb(254,254,223, .7);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
     padding: 30px;
 }
 
 .signup-form h2 {
     color: #4E4351;
     margin-bottom: 20px;
+}
+
+.signup-form input {
+    max-width: 100%;
 }
 
 .text-input  {
@@ -340,16 +354,6 @@ th, td {
     margin: 5px 0 20px 0;
 }
 
-#contact-image {
-    background: url(../images/contact_image_whitecat.jpg) center center no-repeat;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    box-shadow: 0px 1px 4px 2px #B0A8B9;
-    height: 754px;
-    width: 503px;
-    margin-top: 150px;
-    margin-left: 10%;
-}
 
 /* Confirmation Page */
 
