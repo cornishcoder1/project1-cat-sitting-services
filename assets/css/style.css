@@ -11,6 +11,12 @@ body {
     border: none;
 }
 
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 .border-styling {
     border: 1px solid transparent;
     border-radius: 4px;
@@ -68,13 +74,40 @@ h1, h2 {
 /* Hero Image and Text */
 
 #hero-section {
-    height: 425px;
+    height: 300px;
     width: 100%;
+    padding: 3rem 0;
     overflow: hidden;
     background: rgb(151,102,170, .5);
-    position: relative;
+    
 }
 
+.container {
+    margin: auto;
+    width: min(90%, 70.5rem); 
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.split > * + * {
+    margin-left: 4em;
+}
+
+.container h1, h2 {
+    font-size: xx-large;
+}
+
+ul, li {
+    font-weight: lighter;
+    font-size: large;
+}
+
+
+
+/*
 .hero-section {
     display:flex;
     justify-content: space-between;
@@ -431,8 +464,27 @@ footer {
         height: 160px;
     }
 
+    .split {
+        flex-direction: row;
+    }
+
+
+/* For small screen sizes 600px and down*/
+
+    @media (max-width: 600px) {
+        .split {
+            flex-direction: column;
+        }
+        
+        .split > * {
+            flex-basis: 100%;
+        }
+    }    
+
+    
+/*
     #hero-section {
-        /*width: 65%;*/
+        /*width: 65%;
         height: 1000px;
         margin: 0 auto;
     }
@@ -456,7 +508,7 @@ footer {
         border: 1px solid transparent;
         border-radius: 4px;
         box-shadow: 0px 1px 4px 2px #B0A8B9;
-    }
+    }*/
 
     #video-player {
         padding-top: 50px;
