@@ -455,7 +455,7 @@ footer {
 /* For small screen sizes 652px and down*/
 
     @media (max-width: 652px) {
-
+        
         #menu {
             clear: left; 
             float: left;
@@ -495,9 +495,42 @@ footer {
         }
         
     } 
+
+    /* For small screen sizes 512px and down*/
+        @media (max-width: 512px){
+
+            #menu {
+                clear: left; 
+                float: left;
+                font-size: 70%;
+                margin-inline: 30px;
+                line-height: 25px;
+                flex-direction: column;
+                }
         
-       
+            #logo {
+                float: left;
+                font-size: 150%;
+                line-height: 2em;
+                margin-left: 30px;   
+            }
+        }  
+        
+         /* For small screen sizes 426px and down
+         @media (max-width: 426px){
+            #logo {
+                float: left;
+                font-size: x-small;
+                line-height: 2em;
+                margin-left: 30px;   
+            }
 
-
-   
-}
+            #menu {
+                clear: left; 
+                float: left;
+                font-size: x-small;
+                margin-inline: 30px;
+                line-height: 25px;
+                flex-direction: column;
+                }
+         }
