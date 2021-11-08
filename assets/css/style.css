@@ -5,6 +5,9 @@ body {
     color: #4E4351;  
 }
 
+html body {
+    overflow-x: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -449,12 +452,29 @@ footer {
 }   
 
 
-/* For small screen sizes 600px and down*/
+/* For small screen sizes 652px and down*/
 
-    @media (max-width: 600px) {
+    @media (max-width: 652px) {
+
+        #menu {
+            clear: left; 
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+            }
+    
+        #logo {
+            float: left;
+            font-size: 200%;
+            line-height: 2em;
+            margin-left: 30px;   
+        }
+        
         .split {
             flex-direction: column;
         }
+
         
         .split > * {
             flex-basis: 100%;
@@ -463,8 +483,19 @@ footer {
         .text-box {
             height: 425px;
         }
-    } 
+
+        header {
+            width: 100%;
+            padding: 0;
         }
+        
+        body {
+            width: 100%;
+            padding: 0;
+        }
+        
+    } 
+        
        
 
 
