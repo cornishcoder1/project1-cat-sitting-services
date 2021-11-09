@@ -532,7 +532,8 @@ footer {
         }
 
         .text-box {
-            height: 425px;
+            height: auto;
+            padding-bottom: 30px;
         }
 
         header {
