@@ -452,7 +452,7 @@ footer {
 }   
 
 
-/* For small screen sizes 652px and down*/
+/* For screen sizes 652px and down*/
 
     @media (max-width: 652px) {
         
@@ -514,23 +514,10 @@ footer {
                 line-height: 2em;
                 margin-left: 30px;   
             }
-        }  
-        
-         /* For small screen sizes 426px and down
-         @media (max-width: 426px){
-            #logo {
-                float: left;
-                font-size: x-small;
-                line-height: 2em;
-                margin-left: 30px;   
+
+            #cat-paw {
+                display: none;
             }
 
-            #menu {
-                clear: left; 
-                float: left;
-                font-size: x-small;
-                margin-inline: 30px;
-                line-height: 25px;
-                flex-direction: column;
-                }
-         }
+            
+        }  
