@@ -20,6 +20,7 @@ img {
     max-width: 100%;
 }
 
+
 .border-styling {
     border: 1px solid transparent;
     border-radius: 4px;
@@ -449,6 +450,12 @@ footer {
     .text-box {
         height: 375px;
     }
+
+    iframe {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
 }   
 
 
@@ -470,7 +477,52 @@ footer {
             line-height: 2em;
             margin-left: 30px;   
         }
-        
+
+        #hero-section {
+            height: auto;
+        }
+
+        img {
+            padding-top: 30px;
+        }
+
+        h2 {
+            padding-bottom: 30px;
+        }
+
+        #video-section {
+            height: auto;
+        }
+
+        #video-header > h1 {
+            font-size: 100%;
+        }
+
+        #video-header, #video-player {
+            margin-inline: 30px;
+        }
+
+        #video-player {
+            padding: 0;
+            height: auto;
+        }
+
+        #why-section {
+            height: auto;
+            padding-bottom: 30px;
+        }
+
+        #icon {
+            margin:0;  
+            padding-left: 40%;  
+        }
+
+        #icon > p {
+            float:left;
+        }
+
+    
+
         .split {
             flex-direction: column;
         }
@@ -497,17 +549,23 @@ footer {
     } 
 
     /* For small screen sizes 512px and down*/
-        @media (max-width: 512px){
+        @media (max-width: 512px) {
 
-            #menu {
-                clear: left; 
-                float: left;
-                font-size: 70%;
+            header, #nav-section {
+                padding-top: 1em;
+            }    
+
+            header {
+                height: auto;
+            }
+
+            #nav-section {
+                height: 5em;
                 margin-inline: 30px;
-                line-height: 25px;
-                flex-direction: column;
-                }
-        
+                width: min (90%, 70.5rem);
+                text-align: center;
+            }
+
             #logo {
                 float: left;
                 font-size: 150%;
@@ -515,9 +573,13 @@ footer {
                 margin-left: 30px;   
             }
 
+            .text-center {
+                padding: 0;
+                text-align: center;
+                margin-inline: 30px;
+            }
+
             #cat-paw {
                 display: none;
             }
-
-            
-        }  
+        }
