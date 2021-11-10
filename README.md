@@ -3,7 +3,7 @@
 
 view live project here: (insert link)
 
-insert "Am I Responsive?" screenshot here
+<img src="assets/images/am-i-responsive.png">
 
 ------
 
