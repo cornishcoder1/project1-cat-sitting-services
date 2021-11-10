@@ -184,12 +184,12 @@ padding: 30px 0 30px 0;
 
 .text-box {
         height: 325px;
-        margin: auto
+        margin: auto;
         padding: 0 15px 0 15px;
         background:rgb(254,254,223);
         font-size: smaller;
         text-align: center;
-}
+}    
 
 .text-box p {
     margin-inline: 2em;
@@ -427,7 +427,7 @@ footer {
     header, nav {
         display: grid;
         justify-content: center;
-        height: 160px;
+        height: 140px;
     }
 
     .split {
@@ -525,8 +525,6 @@ footer {
             float:left;
         }
 
-    
-
         .split {
             flex-direction: column;
         }
@@ -593,11 +591,11 @@ footer {
             }
 
             #icon {
-                padding-left: 1.5em;
+                padding-left: 5em;
             }
 
-            #icon > img, p {
-                padding-left: 5em;
+           .icon-text {
+                padding-left: 0;
                 font-size: smaller;
                 text-align: center;
             } 
