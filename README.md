@@ -20,7 +20,7 @@ Wireframes for desktop site:
 
 Home Page
 
-![Desktop wireframe for homepage](./assets/wireframes/home_page.png)
+![Desktop wireframe for Homepage](./assets/wireframes/home_page.png)
 
 </div>
 
@@ -28,7 +28,7 @@ Home Page
 
 About Us Page
 
-![Desktop wireframe for homepage](./assets/wireframes/about_us_page.png)
+![Desktop wireframe for About Us page](./assets/wireframes/about_us_page.png)
 
 </div>
 
@@ -36,7 +36,7 @@ About Us Page
 
 Prices Page
 
-![Desktop wireframe for homepage](./assets/wireframes/prices_page.png)
+![Desktop wireframe for Prices page](./assets/wireframes/prices_page.png)
 
 </div>
 
@@ -44,7 +44,7 @@ Prices Page
 
 Contact Us Page
 
-![Desktop wireframe for homepage](./assets/wireframes/contact_us_page.png)
+![Desktop wireframe for Contact Us page](./assets/wireframes/contact_us_page.png)
 
 </div>
 
@@ -52,22 +52,20 @@ Contact Us Page
 
 Confirmation Page
 
-![Desktop wireframe for homepage](./assets/wireframes/confirmation_page.png)
+![Desktop wireframe for Confirmation page](./assets/wireframes/confirmation_page.png)
 
 </div>
 
+## User Stories
 
+As a new user I am:
+- looking for information about cat sitting services in my local area.
+- wanting to know a little bit about the business and their background.
+- get an indication of prices, and be able to contact the business with any further enquiries about availability and the services I require.
 
-
-
-hello
-
-insert links to wireframes here
-
-User Stories: 
-- New users
-- Returning users
-- Existing users
+As an existing user I am: 
+- Looking to get in touch with the business to enquire and/or re-book services which I have used before. 
+- Checking current prices and availabilty 
 
 ------
 
