@@ -1,7 +1,9 @@
 
-.ser# Holly & Ruby Cat Sitting Services
+# Holly & Ruby Cat Sitting Services
 
-view live project here: (insert link)
+<p>My website is designed to offer information about a local cat sitting service in South Wales. It contains essential information about the business, locations covered, services provided and prices. It also features a contact page with a form to allow users to enquire further about specific dates and requirements.</p>
+
+<a href="https://cornishcoder1.github.io/project1-cat-sitting-services/" target="_blank" rel="noopener" aria-label="Link to open deployed site">Link to deployed site</a>
 
 <img src="assets/images/am-i-responsive.png">
 
@@ -9,7 +11,7 @@ view live project here: (insert link)
 
 ## UX
 
-insert text here 
+My website is aimed at cat owners who are looking for a cat sitting service for the first time, or to those looking for an alternative to placing their pet in a cattery while they are away. I have attempted to keep the website quite clean and clutter free, but also ensuring that all essential information is present. The color scheme consists of #FEFEDF applied to alternate sections on the homepage and text boxes on the other pages, as well as to the header and footer with an opacity 
 
 insert wireframe screenshots here
 

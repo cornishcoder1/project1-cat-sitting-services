@@ -30,7 +30,7 @@ img {
 /* Headings and Logo*/
 
 header {
-    background-color: rgb(254,254,223, .5);
+    background-color: rgb(254,254,223);
     overflow: hidden;
     height: 80px;
 }
@@ -116,7 +116,7 @@ ul, li {
     width: 100%;
     padding-bottom: 25px;
     overflow: hidden;
-    background: rgb(254,254,223, .5)
+    background: rgb(254,254,223)
 }
 
 #video-header, #video-player {
