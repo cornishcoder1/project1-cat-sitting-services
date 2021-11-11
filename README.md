@@ -71,13 +71,27 @@ As an existing user I am:
 
 ## Features 
 
-(include screenshots)
+<div align="center">
 
-1. Nav bar
-2. Landing page/hero image
-3. Info section
-4. Prices section
-5. Contact form
+Navigation Bar
+
+![Screenshot of navigation bar](./assets/screenshots/screenshot_nav_bar.png)
+
+</div>
+
+
+
+
+
+
+
+
+
+
+2. Home Page
+3. About Us page
+4. Prices page
+5. Contact page & Confirmation page
 6. Footer 
 
 Features left to implement
