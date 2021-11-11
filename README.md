@@ -15,6 +15,13 @@ My website is aimed at cat owners who are looking for a cat sitting service for 
 
 insert wireframe screenshots here
 
+<img href="assets/wireframes/homepage.png"></img>
+<img></img>
+<img></img>
+<img></img>
+<img></img>
+
+
 insert links to wireframes here
 
 User Stories: 
