@@ -11,16 +11,12 @@
 
 ## UX
 
-My website is aimed at cat owners who are looking for a cat sitting service for the first time, or to those looking for an alternative to placing their pet in a cattery while they are away. I have attempted to keep the website quite clean and clutter free, but also wanted to ensure that all essential information is present. The color scheme consists of #FEFEDF applied to header, footer, alternate sections on the homepage and text boxes, and #4E4351 as a main background color. The text is a darker variation of the purple background color. I generated a number of color palettes by using <a href="https://mycolor.space/?hex=%23845EC2&sub=1>">ColorSpace</a>. The main color I generated the palettes from was #845EC2. I wanted the design of the site to reflect a fun and playful feeling which comes with having a pet such as a cat, whilst also using colors and fonts which would give a modern and stylish finish. 
+My website is aimed at cat owners who are looking for a cat sitting service for the first time, or to those looking for an alternative to placing their pet in a cattery while they are away. I have attempted to keep the website quite clean and clutter free, but also wanted to ensure that all essential information is present. The color scheme consists of #FEFEDF applied to header, footer, alternate sections on the homepage and text boxes, and #4E4351 as a main background color. The text is a darker variation of the purple background color. I generated a number of color palettes by using <a href="https://mycolor.space/?hex=%23845EC2&sub=1>">ColorSpace</a>. The main color I generated the palettes from was #845EC2. I wanted the design of the site to reflect a fun and playful feeling which comes with having a pet such as a cat, whilst also using colors and fonts which would give a modern and stylish finish.
 
-insert wireframe screenshots here
+![Desktop wireframe for homepage](./assets/wireframes/home_page.png)
 
-<img href="assets/wireframes/homepage.png"></img>
-<img></img>
-<img></img>
-<img></img>
-<img></img>
 
+hello
 
 insert links to wireframes here
 
