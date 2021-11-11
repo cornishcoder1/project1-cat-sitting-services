@@ -73,26 +73,76 @@ As an existing user I am:
 
 <div align="center">
 
-Navigation Bar
+Navigation Bar and Footer
 
 ![Screenshot of navigation bar](./assets/screenshots/screenshot_nav_bar.png)
 
+![Screenshot of footer](./assets/screenshots/screenshot_footer.png)
+
 </div>
 
+<div align="center">
+
+Hero Section
+
+![Screenshot of hero section](./assets/screenshots/screenshot_hero_section.png)
+
+</div>
+
+<div align="center">
+
+Video Section
+
+![Screenshot of video section](./assets/screenshots/screenshot_video_section.png)
+
+</div>
+
+<div align="center">
+
+Icon Section
+
+![Screenshot of icon section](./assets/screenshots/screenshot_icon_section.png)
+
+</div>
+
+<div align="center">
+
+About Us Page
 
 
+![Screenshot of about us section](./assets/screenshots/screenshot_about_us.png)
 
 
+![Screenshot of benefits section](./assets/screenshots/screenshot_benefits.png)
 
 
+![Screenshot of testimonials section](./assets/screenshots/screenshot_testimonials.png)
 
 
+</div>
 
-2. Home Page
-3. About Us page
-4. Prices page
-5. Contact page & Confirmation page
-6. Footer 
+<div align="center">
+
+Prices Page
+
+
+![Screenshot of prices section](./assets/screenshots/screenshot_prices.png)
+
+
+</div>
+
+<div align="center">
+
+Contact Us and Confirmation Pages
+
+
+![Screenshot of contact form](./assets/screenshots/screenshot_form.png)
+
+![Screenshot of confirmation page](./assets/screenshots/screenshot_confirmation.png)
+
+
+</div>
+
 
 Features left to implement
 
