@@ -173,24 +173,45 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 ## Other resources used
 
-<a href="balsamiq.com" target="_blank" rel="noopener" aria-label="Link to Balsamiq"> - Balsamiq</a>
+<a href="http://ami.responsivedesign.is/#"> - Am I Responsive</a>
 
-- Balsamiq
-- Am I Responsive
-- ColorSpace
-- Chrome Dev Tools
-- Flaticon
-- Font Awesome
-- Google Fonts
-- Pexels
-- Unsplash
-- Vimeo
+<a href="https://balsamiq.com"> - Balsamiq</a>
+
+<a href="https://developer.chrome.com/docs/devtools"> - Chrome Dev Tools</a>
+
+<a href="https://mycolor.space/?hex=%23845EC2&sub=1>"> - ColorSpace</a>
+
+<a href="http://www.flaticon.com/"> - Flaticon</a>
+
+<a href="https://fontawesome.com/"> - Font Awesome</a>
+
+<a href="https://fonts.google.com/"> - Google Fonts</a>
+
+<a href="https://pexels.com"> - Pexels</a>
+
+<a href="https://unsplash.com"> - Unsplash</a>
+
+<a href="https://vimeo.com"> - Vimeo</a>
 
 ------
 
-## Testing
+# Validator Testing
 
-1. Validator testing
+## HTML
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> index.html - 1 warning</a>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> about.html - </a>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> prices.html - </a>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> contact.html - </a>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> confirmation.html - </a>
+
+
+
+
 2. Unfixed bugs
 
 ------
