@@ -572,8 +572,6 @@ footer {
             #nav-section {
                 height: 5em;
                 margin-inline: 30px;
-                width: min (90%, 70.5rem);
-                text-align: center;
             }
 
             #logo {

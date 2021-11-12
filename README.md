@@ -199,20 +199,42 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 ## HTML
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> index.html</a> - 1 warning
+A single warning was detected across all pages, advising that sections did not contain any H1 elements. Errors that were detected are detailed in the 'Fixed Bugs' section.
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fabout.html"> about.html</a> - 1 warning
+HTML validator result links:
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fprices.html"> prices.html</a> - 1 warning
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> index.html</a>
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fcontact.html"> contact.html</a> - 1 warning
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fabout.html"> about.html</a>
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> confirmation.html - </a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fprices.html"> prices.html</a>
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fcontact.html"> contact.html</a> 
+
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fconfirmation.html%3Ffirst_name%3DLEah%26last_name%3DFisher%26email_address%3Dleahfisher07%2540hotmail.co.uk%26from%3D2021-11-13%26to%3D2021-11-25%26number%3D2%26message%3Dtest%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B%2B"> confirmation.html </a>
+
+
+
+## CSS
 
 
 
 
-2. Unfixed bugs
+# Bugs
+
+## Fixed
+- Across the site I had used H1 elements instead of H2 elements in divs. The validator advised me to use H2 instead of H1, so I have changed these. 
+- I attempted to include an alt= attribute in the iframe element, however the validator advised that these are not currently useable for iframes, so I removed it. 
+- A duplicate #icon ID was identified across a number of divs, so I changed this to a .icon class (I kept the associated attributes the same so as not to change the layout of the elements contained in the divs). This change was accepted by the validator. 
+- One of my image files had blank spaces in it's file name. This has been rectified with underscores between words. 
+- The form labels for 'Dates..' and 'number of cats..' had for= values that were not required, so I have removed these. 
+
+## Unfixed
+
+
+
+
+
 
 ------
 
