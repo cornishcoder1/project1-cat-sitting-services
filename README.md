@@ -61,10 +61,10 @@ Confirmation Page
 As a new user I am:
 - looking for information about cat sitting services in my local area.
 - wanting to know a little bit about the business and their background.
-- get an indication of prices, and be able to contact the business with any further enquiries about availability and the services I require.
+- wanting an indication of prices, and to be able to contact the business with any further enquiries about availability and the services I require.
 
 As an existing user I am: 
-- Looking to get in touch with the business to enquire and/or re-book services which I have used before. 
+- Looking to get in touch with the business to enquire and/or re-book services that I have used before. 
 - Checking current prices and availabilty 
 
 ------
@@ -73,7 +73,7 @@ As an existing user I am:
 
 <div align="center">
 
-Navigation Bar and Footer
+**Navigation Bar and Footer**
 
 The navigation bar and footer are featured on every page of the site. The former allows users to easily navigate to whichever part of the site they wish. An "a:hover" line appears under each link when the user hovers over with the mouse. The footer allows users to navigate to the relevant would-be social media channels for the business. 
 
@@ -85,7 +85,7 @@ The navigation bar and footer are featured on every page of the site. The former
 
 <div align="center">
 
-Hero Section
+**Hero Section**
 
 This section contains the headline of "Reliable and Affordable Cat Care in Gwent", giving the user a clear list of areas covered as soon as they land on the site. I've attempted to make the homepage as inviting and visually pleasing as possible with the use of the cat photo, video and playful icons.  
 
@@ -95,9 +95,9 @@ This section contains the headline of "Reliable and Affordable Cat Care in Gwent
 
 <div align="center">
 
-Video Section
+**Video Section**
 
-This section features a stock video from Pexels, showing cats during a fictional feeding time during a home visit. This video is not set to auto-play, allowing users to initiate and control actions on the video player.
+This section features a stock video from Pexels, showing cats at a fictional feeding time during a home visit. This video is not set to auto-play, allowing users to initiate and control actions on the video player.
 
 ![Screenshot of video section](./assets/screenshots/screenshot_video_section.png)
 
@@ -105,9 +105,9 @@ This section features a stock video from Pexels, showing cats during a fictional
 
 <div align="center">
 
-Icon Section
+**Icon Section**
 
-I wanted this section to be a visually appealing section highlighting very succinctly why customers should choose this business. it highlights important features of the business and it's ethos in an easy to digest and attractive way.
+I wanted this section to be a visually appealing section highlighting very succinctly why customers should choose this business. It highlights important features of the business and it's ethos in an easy to digest and attractive way.
 
 ![Screenshot of icon section](./assets/screenshots/screenshot_icon_section.png)
 
@@ -115,9 +115,9 @@ I wanted this section to be a visually appealing section highlighting very succi
 
 <div align="center">
 
-About Us Page
+**About Us Page**
 
-This page contains the bulk of the information about the business, split into three easy to read sections which are broken up with images. It clear states some of the business background and demonstrates enthusiasm for what they do, information on the benefits of cat sitting and testimonials from happy customers. These testimonials provided some added reassurance to the user that their pet would be in safe hands. 
+This page contains the bulk of the information about the business, split into three easy to read sections which are broken up with images. It clearly states some of the business background and demonstrates enthusiasm for what they do, information on the benefits of cat sitting and testimonials from happy customers. These testimonials provide some added reassurance to the user that their pet would be in safe hands. 
 
 
 ![Screenshot of about us section](./assets/screenshots/screenshot_about_us.png)
@@ -133,7 +133,7 @@ This page contains the bulk of the information about the business, split into th
 
 <div align="center">
 
-Prices Page
+**Prices Page**
 
 This page gives information about standard pricing in a table, which is clearly presented and easy to read. It also provides information on cancellation and how to make payment. 
 
@@ -145,7 +145,7 @@ This page gives information about standard pricing in a table, which is clearly 
 
 <div align="center">
 
-Contact Us and Confirmation Pages
+**Contact Us and Confirmation Pages**
 
 The Contact Us page contains a form element, which allows users to get in touch with the business. All fields (apart from the message field) are set as required which ensures all information is collected before the user can submit the form. The form allows users to specify the dates during which they require cat sitting services, number of cats to be cared for and gives the opportunity to ask specific questions within the message field. When the user clicks the submit button they are then presented with a confirmation page which informs them that they will be contacted soon. 
 
@@ -228,10 +228,10 @@ CSS validator result link:
 
 ## Fixed
 - Across the site I had used H1 elements instead of H2 elements in divs. The validator advised me to use H2 instead of H1, so I have changed these. 
-- I attempted to include an alt= attribute in the iframe element, however the validator advised that these are not currently useable for iframes, so I removed it. 
-- A duplicate #icon ID was identified across a number of divs, so I changed this to a .icon class (I kept the associated attributes the same so as not to change the layout of the elements contained in the divs). This change was accepted by the validator. 
-- One of my image files had blank spaces in it's file name. This has been rectified with underscores between words. 
-- The form labels for 'Dates..' and 'Number of cats..' had for= values that were not required, so I have removed these. 
+- I attempted to include an alt attribute in the iframe element, however the validator advised that these are not currently useable for iframes, so I removed it. 
+- A duplicate #icon ID was identified across a number of divs, so I changed this to a .icon class (I kept the associated attributes the same so that the layout of the elements contained in the divs were not affected). This change was accepted by the validator. 
+- One of my image files had blank spaces in the file name. This has been rectified with underscores between words. 
+- The form labels for 'Dates..' and 'Number of cats..' had 'for' values that were not required, so I have removed these. 
 
 ## Unfixed
 
@@ -255,10 +255,10 @@ Lighthouse scored the site highly on Performance, Accessibility, Best Practices 
 
 # Manual Testing
 The website has been tested using the following browsers:
-Google Chrome
-Microsoft Edge
-Mozilla Firefox
-Safari
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
 
 Within Chrome and Safari, the following breakpoints were checked and corresponding media queries were used:
 - Large screen sizes from 1200px and down
@@ -267,7 +267,7 @@ Within Chrome and Safari, the following breakpoints were checked and correspondi
 - Extra small screen sizes from 512px and down
 
 
-The following emulated devices have been test in Dev Tools: 
+The following emulated devices have been tested in Dev Tools: 
 - iPhone 5/SE
 - iPhone 6/7/8
 - iPhone 6/7/8 Plus
