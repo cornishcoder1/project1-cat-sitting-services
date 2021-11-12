@@ -278,7 +278,7 @@ The following emulated devices have been test in Dev Tools:
 
 ## Deployment 
 
-My <a href="https://cornishcoder1.github.io/project1-cat-sitting-services/" target="_blank" aria-label="Link to open deployed site">website</a> was deployed via GitHub Pages as follows:
+My <a href="https://cornishcoder1.github.io/project1-cat-sitting-services/" target="_blank" rel="noopener" aria-label="Link to open deployed site">website</a> was deployed via GitHub Pages as follows:
 
 1. Go to https://github.com and login
 2. Navigate to the required repository (project1-cat-sitting-services)
