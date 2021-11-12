@@ -148,7 +148,7 @@ ul, li {
     padding-bottom: 30px;
 }
 
-#icon > p {
+.icon > p {
     padding-top: 20px;
     text-align: center;
 }
@@ -511,13 +511,13 @@ footer {
             padding-bottom: 30px;
         }
 
-        #icon {
+        .icon {
             margin:0;  
             padding-left: 40%;  
             padding-top: 30px;
         }
 
-        #icon > p {
+        .icon > p {
             float:left;
         }
 
@@ -586,7 +586,11 @@ footer {
              margin-inline: 2em;
             }
 
-            #icon {
+            #why-head-text {
+                padding-bottom: 0;
+            }
+
+            .icon {
                 padding-left: 5em;
             }
 
