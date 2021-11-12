@@ -168,10 +168,23 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 - HTML
 - CSS
-- Font Awesome
-- Google Fonts
 - Gitpod
 - GitHub
+
+## Other resources used
+
+<a href="balsamiq.com" target="_blank" rel="noopener" aria-label="Link to Balsamiq"> - Balsamiq</a>
+
+- Balsamiq
+- Am I Responsive
+- ColorSpace
+- Chrome Dev Tools
+- Flaticon
+- Font Awesome
+- Google Fonts
+- Pexels
+- Unsplash
+- Vimeo
 
 ------
 
