@@ -217,7 +217,11 @@ HTML validator result links:
 
 ## CSS
 
+No errors were detected.
 
+CSS validator result link:
+
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"> style.css </a>
 
 
 # Bugs
@@ -227,20 +231,61 @@ HTML validator result links:
 - I attempted to include an alt= attribute in the iframe element, however the validator advised that these are not currently useable for iframes, so I removed it. 
 - A duplicate #icon ID was identified across a number of divs, so I changed this to a .icon class (I kept the associated attributes the same so as not to change the layout of the elements contained in the divs). This change was accepted by the validator. 
 - One of my image files had blank spaces in it's file name. This has been rectified with underscores between words. 
-- The form labels for 'Dates..' and 'number of cats..' had for= values that were not required, so I have removed these. 
+- The form labels for 'Dates..' and 'Number of cats..' had for= values that were not required, so I have removed these. 
 
 ## Unfixed
 
-
-
-
+- I have been able to make the navigation bar responsive at screen sizes 512px and below, however I am unhappy with the way it presents on the screen. I tried to code a simple 'hamburger' style menu for the associated media query, however I was not able to find an example of code where JavaScript was not required and therefore was unsuccessful in implementing this. 
+- I attempted to style the 'Why Choose Us' section on the homepage using 'flex' css however I was unable to get the icons and their associated paragraphs to center on small screens. I have used different padding values within the media query for screen sizes 512px and below as an alternative fix, but unfortunately the elements are still not centered perfectly. 
+- I wanted to be able to set the date fields on the contact form so that past dates could not be accidently selected. I did some research into this and tried some pieces of code but was unable to implement this feature.
 
 
 ------
+# Accessibility Testing
+
+Lighthouse scored the site highly on Performance, Accessibility, Best Practices and SEO.
+
+<div align="center">
+
+![Screenshot of Lighthouse test result](./assets/screenshots/screenshot_lighthouse_score.png)
+
+</div>
+
+<br>
+
+# Manual Testing
+The website has been tested using the following browsers:
+Google Chrome
+Microsoft Edge
+Mozilla Firefox
+Safari
+
+Within Chrome and Safari, the following breakpoints were checked and corresponding media queries were used:
+- Large screen sizes from 1200px and down
+- Medium screen sizes from 837px and down 
+- Small screen sizes from 652px and down
+- Extra small screen sizes from 512px and down
+
+
+The following emulated devices have been test in Dev Tools: 
+- iPhone 5/SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+
 
 ## Deployment 
 
-Insert here
+My <a href="https://cornishcoder1.github.io/project1-cat-sitting-services/" target="_blank" rel="noopener" aria-label="Link to open deployed site">website</a> was deployed via GitHub Pages as follows:
+
+1. Go to https://github.com and login
+2. Navigate to the required repository (project1-cat-sitting-services)
+3. Click on the "Settings" button
+4. Click on "Pages"
+5. Under "Source", click the dropdown for "Branch" select "master" and then "Save"
+6. A message will then appear stating that the website is published at the deployed address 
 
 ------
 
