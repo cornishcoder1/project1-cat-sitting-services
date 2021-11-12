@@ -203,9 +203,9 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fabout.html"> about.html</a> - 1 warning
 
-<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fprices.html"> prices.html</a> - 1 waning
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fprices.html"> prices.html</a> - 1 warning
 
-<a href=""> contact.html</a> -
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2Fcontact.html"> contact.html</a> - 1 warning
 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcornishcoder1.github.io%2Fproject1-cat-sitting-services%2F"> confirmation.html - </a>
 
