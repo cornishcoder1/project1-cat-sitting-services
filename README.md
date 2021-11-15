@@ -289,13 +289,51 @@ My <a href="https://cornishcoder1.github.io/project1-cat-sitting-services/" targ
 
 ------
 
-## Credit 
+# Credits 
 
-1. Content (references)
+## Content
 
-2. Media (images)
-    <div>Cat paw heart and clock icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>First aid bag icon made by <a href="https://www.flaticon.com/authors/catkuro" title="catkuro">catkuro</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <div>Police officer with badge icon made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-    <br>
+I used the following websites for research: 
+
+- <a href="https://www.facebook.com/idlecatsandlittlepaws/"> Idle Cats and Little Paws</a>
+- <a href="https://stalbanspetservices.co.uk/"> St Albans Pet Services</a>
+- <a href="https://www.we-love-pets.co.uk/services/cat-sitting"> We Love Pets</a>
+
+<br>
+
+## Media 
+
+1. Cat hero image by <a href="https://unsplash.com/@lloydhenneman"> Lloyd Henneman</a> on <a href="https://unsplash.com/photos/mBRfYA0dYYE"> Unsplash</a> 
+
+2. Homepage video by <a href="https://www.pexels.com/@magda-ehlers-pexels"> Magda Ehlers</a> on <a href="https://www.pexels.com/video/close-up-video-of-three-cats-eating-5306154/"> Pexels</a> 
+
+3. Police officer with badge icon by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> on <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
+
+4. First aid bag icon by <a href="https://www.flaticon.com/authors/catkuro" title="catkuro">catkuro</a> on <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
+
+5. Cat paw heart and clock icons by <a href="https://www.freepik.com" title="Freepik">Freepik</a> on <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
+
+6. Footer social media icons from <a href="https://fontawesome.com/"> Font Awesome</a>
+
+7. About Us page three_cats_on_wood_floor.jpg image by <a href="https://www.pexels.com/@cottonbro"> Cottonbro</a> on <a href="https://www.pexels.com/photo/three-cats-on-wooden-flooring-6853515/"> Pexels</a> 
+
+8. About Us page testimonials_image_gingercat.jpg image by <a href="https://www.pexels.com/@cottonbro"> Cottonbro</a> on <a href="https://www.pexels.com/photo/orange-tabby-cat-on-brown-wooden-chair-6853517/"> Pexels</a> 
+
+9. Prices page image by <a href="https://www.pexels.com/@freestocks"> Freestocks.org</a> on <a href="https://www.pexels.com/photo/himalayan-cat-205975/"> Pexels</a> 
+
+10. Contact Us page image by <a href="https://unsplash.com/@bereumann"> Mathhias Reumann</a> on <a href="https://unsplash.com/photos/eI2BPNUwgPc"> Unsplash</a> 
+
+11. Confirmation page image by <a href="https://unsplash.com/@linataly1"> Lina Angelov</a> on <a href="https://unsplash.com/photos/Ah_QC2v2alE"> Unsplash</a> 
+
+<br>
+
+## Acknowledgements 
+
+- 
+
+
+
+
+
+   
 3. Acknowledgements (Love Running, mentor etc)
