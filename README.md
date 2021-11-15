@@ -187,6 +187,8 @@ I would like to expand on the interactivity of the site, perhaps implementing a 
 
 <a href="https://fonts.google.com/"> - Google Fonts</a>
 
+<a href="https://www.webfx.com/web-design/hex-to-rgb/"> - Instant HEX to RGB value converter</a>
+
 <a href="https://pexels.com"> - Pexels</a>
 
 <a href="https://unsplash.com"> - Unsplash</a>
@@ -329,11 +331,10 @@ I used the following websites for research:
 
 ## Acknowledgements 
 
-- 
+- Dave_Horrocks_5P for his help with explaining how flex elements work. 
+- Dom Quail_5P for his excellent README example which I have used as a guide.
+- Kevin Powell's YouTube video <a href="https://www.youtube.com/watch?v=bn-DQCifeQQ&t=8s"> 'Responsive Design Made Easy'</a> with thanks to John McPherson_5P for recommending this channel to me. 
+- Love Running project for reference and guidance. 
+- Victor Miclovich (Mentor)
+- <a href="w3schools.com"> W3 Schools</a> for tips on media queries, date inputs on forms and centering tables. 
 
-
-
-
-
-   
-3. Acknowledgements (Love Running, mentor etc)
