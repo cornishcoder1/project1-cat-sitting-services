@@ -124,7 +124,8 @@ ul, li {
 
 #video-header, #video-player {
     padding-top: 50px;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
+    margin-inline: 2em;
     font-size: x-large;
     text-align: center;
 }
