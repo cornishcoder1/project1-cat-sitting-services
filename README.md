@@ -65,7 +65,7 @@ As a new user I am:
 
 As an existing user I am: 
 - Looking to get in touch with the business to enquire and/or re-book services that I have used before. 
-- Checking current prices and availabilty 
+- Checking current prices and availabilty. 
 
 ------
 
