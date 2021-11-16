@@ -124,7 +124,6 @@ ul, li {
 
 #video-header, #video-player {
     padding-top: 50px;
-    /*padding-left: 30px;*/
     margin-inline: 2em;
     font-size: x-large;
     text-align: center;
@@ -152,7 +151,7 @@ ul, li {
     padding-bottom: 30px;
 }
 
-.icon > p {
+.why-choose > p {
     padding-top: 20px;
     text-align: center;
 }
@@ -525,13 +524,13 @@ footer {
             padding-bottom: 30px;
         }
 
-        .icon {
+        .why-choose {
             margin:0;  
             padding-left: 40%;  
             padding-top: 30px;
         }
 
-        .icon > p {
+        .why-choose > p {
             float:left;
         }
 
@@ -603,7 +602,7 @@ footer {
                 padding-bottom: 0;
             }
 
-            .icon {
+            .why-choose {
                 padding-left: 5em;
             }
 
