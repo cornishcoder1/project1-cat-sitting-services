@@ -75,7 +75,7 @@ As an existing user I am:
 
 **Navigation Bar and Footer**
 
-The navigation bar and footer are featured on every page of the site. The former allows users to easily navigate to whichever part of the site they wish. An "a:hover" line appears under each link when the user hovers over with the mouse. The footer allows users to navigate to the relevant would-be social media channels for the business. 
+The navigation bar and footer are featured on every page of the site. The former allows users to easily navigate to whichever part of the site they wish. A solid line appears under each link when the user hovers over with the mouse. The footer allows users to navigate to the relevant would-be social media channels for the business. 
 
 ![Screenshot of navigation bar](./assets/screenshots/screenshot_nav_bar.png)
 
@@ -87,7 +87,7 @@ The navigation bar and footer are featured on every page of the site. The former
 
 **Hero Section**
 
-This section contains the headline of "Reliable and Affordable Cat Care in Gwent", giving the user a clear list of areas covered as soon as they land on the site. I've attempted to make the homepage as inviting and visually pleasing as possible with the use of the cat photo, video and playful icons.  
+This section gives the user a clear list of areas covered as soon as they land on the site. I've attempted to make the homepage as inviting and visually pleasing as possible with the use of the cat photo, video and playful icons.  
 
 ![Screenshot of hero section](./assets/screenshots/screenshot_hero_section.png)
 
