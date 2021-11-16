@@ -237,7 +237,7 @@ CSS validator result link:
 
 ## Unfixed
 
-- I have been able to make the navigation bar responsive at screen sizes 512px and below, however I am unhappy with the way it presents on the screen. I tried to code a simple 'hamburger' style menu for the associated media query, however I was not able to find an example of code where JavaScript was not required and therefore was unsuccessful in implementing this. 
+- I have been able to make the navigation bar responsive at screen sizes 512px and below, however the navigation links are not as well presented as I would have liked them to be. I tried to code a simple 'hamburger' style menu for the associated media query, however I was not able to find an example of code without JavaScript. My mentor suggested a fix on how to style a hamburger menu with HTML & CSS only, however I could not get this to style particularly well either so decided not to include it.  
 - I attempted to style the 'Why Choose Us' section on the homepage using 'flex' css however I was unable to get the icons and their associated paragraphs to center on small screens. I have used different padding values within the media query for screen sizes 512px and below as an alternative fix, but unfortunately the elements are still not centered perfectly. 
 - I wanted to be able to set the date fields on the contact form so that past dates could not be accidently selected. I did some research into this and tried some pieces of code but was unable to implement this feature.
 
